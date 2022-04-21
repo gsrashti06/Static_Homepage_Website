@@ -1,0 +1,202 @@
+<html>
+<title>FULL STACK DEVELOPMENT</title>
+<head>
+
+<style>
+body{
+ background-color:black;}
+
+.container {
+  padding: 16px;
+  background-color: #09cfbde6;
+  border: 50px solid #F5FFFA;
+}
+
+input[type=text], input[type=password] {
+  width: 500px;
+  height:40px;
+  padding: 10px;
+  margin-left:40px;
+  margin: 10px 0 20px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=text], input[type=email] {
+  width: 500px;
+  height:40px
+  padding: 15px;
+  margin-left:30px;
+  margin: 10px 0 20px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.addres{
+height:150px;}
+
+.submit{
+background-color: red;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 27%;
+    opacity: 0.6;
+}
+
+.submit:hover {
+  opacity: 1;
+}
+
+.reset{
+background-color: green;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 27%;
+    opacity: 0.6;
+}
+
+.reset:hover {
+  opacity: 1;
+}
+
+.heading{
+font-size:40px;
+text-align:center;
+height:30px;
+margin-top:10px;}
+
+.head{
+background-color:#03787c;
+color:#FFFFFF;
+}
+
+.p{
+font-size:13px;
+padding-bottom:5px;}
+
+</style>
+
+</head>
+
+<body>
+<form action="/action_page.php">
+<div class="container">
+  <div class="head">
+  <p class="heading"><b>Full Stack Development Registration Form</b></p><br>
+  </div>
+  <br><br><br>
+  <label for="fname" style="font-size:20px">First Name</label><br>
+  <p class="p";><b>Please enter your name as per the PAN CARD</b></p>
+  <input type="text" id="fname" name="fname" placeholder="Your FirstName"><br><br>
+ 
+  
+  <label for="lname" style="font-size:20px">Last Name  </label><br>
+  <input type="text" id="lname" name="lname" placeholder="Your LastName"><br><br>
+  <label for="phno" style="font-size:20px">Phone Number</label>
+  <input type="number" id="number" name="phno" placeholder="+91 8877659901"><br><br><br>
+  <label for="DOB" style="font-size:20px">Date of Birth </label>
+  <input type="date" id="date" name="date"><br><br>
+   <p style="font-size:20px">Gender</p>
+  <input type="radio" id="b1" name="Male" value="">
+  <label for="b1">Male</label><br>
+ <input type="radio" id="b1" name="female" value="">
+  <label for="b1">Female</label><br>
+  <input type="radio" id="b2" name="Other" value="">
+  <label for="b3">Other</label><br><br>
+  <label for="rollno" style="font-size:20px">University Rollno</label><br>
+  <input type="text" id="text" name="text" placeholder="18R11A0599"><br>
+  
+  <label for="email" style="font-size:20px"> Email</label><br>
+  
+  <p class="p";><b>Please enter your name as per the PAN CARD</b></p>
+  <input type="email" id="email" name="email" placeholder="Your Email"><br>
+ 
+
+  <label for="password" style="font-size:20px">Password</label><br>
+  <input type="password" id="password" name="email" placeholder="Your Password"><br>
+  
+  <label for="add" style="font-size:20px">Address</label>
+  
+  <p class="p";><b>Please enter your name as per the PAN CARD</b></p>
+  <input type="text" id="text" name="text" class="addres"><br><br>
+  
+  
+  <label for="College name" style="font-size:20px">University </label>
+
+<select name="cllg_name" id="cllg_name">
+  <option value="1">JNTU</option><br>
+  <option value="2">Geethanjali College of Technology and Engineering</option><br>
+  <option value="3">IIIT Hyderabad</option><br>
+  <option value="4">Naranyamma College of Engineering</option><br>
+  <option value="4">Sreenidhi College of Engineering</option><br>
+  <option value="4">Vidhya Bharitiya College of Engineering</option><br>
+  <option value="4">KMIT</option>
+</select><br><br>
+<p style="font-size:20px">Select Branch</p>
+  <input type="radio" id="b1" name="branch" value="">
+  <label for="b1">Computer Science Engineering</label><br>
+ <input type="radio" id="b1" name="branch" value="">
+  <label for="b1">Electical Engineering</label><br>
+  <input type="radio" id="b2" name="branch" value="">
+  <label for="b3">Electronic Electrical Engineering</label><br>
+  <input type="radio" id="b4" name="branch">
+  <label for="b4">IT Engineering</label><br>
+  <input type="radio" id="b3" name="branch" value="">
+  <label for="b4">Mechanical Engineering</label><br><br>
+  
+<p style="font-size:20px">Language Known</p>
+  <input type="checkbox" id="lang1" name="lang1">
+<label for="lang1">Java</label><br>
+ <input type="checkbox" id="lang2" name="lang2">
+<label for="lang2">C</label><br>
+ <input type="checkbox" id="lang3" name="lang3">
+<label for="lang3">C++</label><br>
+ <input type="checkbox" id="lang4" name="lang4">
+<label for="lang4">Python</label><br>
+<input type="checkbox" id="lang5" name="lang5">
+<label for="lang5">Perl</label><br>
+<input type="checkbox" id="lang6" name="lang6">
+<label for="lang6">JavaScript</label><br>
+ <input type="checkbox" id="lang7" name="lang7">
+<label for="lang7">Bash</label><br><br>
+
+
+<label for="marks" style="font-size:20px">B.Tech Average</label>
+<input type="percentage" id="marks" name="marks" placeholder="Percentag/CGPA"><br>
+
+<p style="font-size:20px">Select Course</p>
+ <input type="radio" id="a1" name="course" values="">
+ <label for="a1">Full Stack Development</label><br>
+ <input type="radio" id="a2" name="course" values="">
+ <label for="a2">Network Engineer</label><br>
+ <input type="radio" id="a3" name="course" values="">
+ <label for="a3">Cyber Security</label><br><br>
+  
+<button type="submit" class="submit">Submit</button>
+<button type="reset" class="reset">Reset</button>
+</div>
+<hr>
+<p style="text-align:center">This content is created by the owner of the form. The data you submit will be sent to the form owner.
+</form>
+</body>
+</html>
